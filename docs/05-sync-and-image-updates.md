@@ -150,3 +150,7 @@ kubectl argo rollouts get rollout guestbook-ui --watch
 - ArgoCD continuously reconciles cluster state with Git
 - Manifest changes (replicas, image, env) all flow through the same sync loop
 - Only `gb-frontend:v5` is currently available from Google Samples
+
+## Next Step
+
+→ [Argo Rollouts basics & notes](06-argo-rollouts-basics-and-notes.md)

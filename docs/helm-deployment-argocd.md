@@ -3,8 +3,9 @@
 
 # Prerequisite
 
-1. Install ArgoCD — follow [02-install-argocd.md](02-install-argocd.md)
-2. Install Argo Rollouts — follow [03-install-argo-rollouts.md](03-install-argo-rollouts.md)
+1. **Helm basics** — convert manifests to charts and values: [07-helm-basics-manifest-to-chart.md](07-helm-basics-manifest-to-chart.md)
+2. Install ArgoCD — follow [02-install-argocd.md](02-install-argocd.md)
+3. Install Argo Rollouts — follow [03-install-argo-rollouts.md](03-install-argo-rollouts.md)
 
 
 ## Install Ingress controller

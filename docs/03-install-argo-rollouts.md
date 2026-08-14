@@ -47,7 +47,7 @@ kubectl argo rollouts version
 | All-or-nothing pod replacement | Weighted traffic steps with pauses |
 | `kubectl rollout status` | `kubectl argo rollouts get rollout` |
 
-The guestbook rollout manifest lives at `manifests/guestbook-rollout/rollout.yaml`. You will deploy it via an ArgoCD Application in a later step.
+The guestbook rollout manifest lives at `manifests/guestbook-rollout/rollout.yaml`. Deploy and operate it after [Applications & Projects](04-applications-and-projects.md) — see [Argo Rollouts basics & notes](06-argo-rollouts-basics-and-notes.md).
 
 ## Next Step
 

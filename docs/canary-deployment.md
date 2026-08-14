@@ -4,6 +4,7 @@
 
 1. Install ArgoCD — follow [02-install-argocd.md](02-install-argocd.md)
 2. Install Argo Rollouts — follow [03-install-argo-rollouts.md](03-install-argo-rollouts.md)
+3. Argo Rollouts basics — [06-argo-rollouts-basics-and-notes.md](06-argo-rollouts-basics-and-notes.md)
 
 
 ## Install Ingress controller

@@ -3,6 +3,7 @@
 ## Prequisite
 1. ArgoCD installation — follow [02-install-argocd.md](02-install-argocd.md)
 2. Argo Rollouts installation — follow [03-install-argo-rollouts.md](03-install-argo-rollouts.md)
+3. Argo Rollouts basics — [06-argo-rollouts-basics-and-notes.md](06-argo-rollouts-basics-and-notes.md)
 
 ## Blue green deployment
 

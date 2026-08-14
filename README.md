@@ -10,6 +10,8 @@ A focused curriculum for learning ArgoCD on a single EKS cluster — from cluste
 4. Create **AppProjects** and **Applications**
 5. Understand sync policies, health status, and drift detection
 6. Trigger a deployment by changing the guestbook image in Git
+7. Use Argo Rollouts for canary and progressive delivery
+8. Convert plain manifests to Helm charts and values (prerequisite for Helm + ArgoCD)
 
 ## Lab Flow
 
@@ -20,16 +22,18 @@ A focused curriculum for learning ArgoCD on a single EKS cluster — from cluste
 | 3 | Install Argo Rollouts | [docs/03-install-argo-rollouts.md](docs/03-install-argo-rollouts.md) |
 | 4 | Applications & Projects | [docs/04-applications-and-projects.md](docs/04-applications-and-projects.md) |
 | 5 | Sync & image updates | [docs/05-sync-and-image-updates.md](docs/05-sync-and-image-updates.md) |
-| 6 | RBAC (optional) | [RBAC/rbac.md](RBAC/rbac.md) |
+| 6 | Argo Rollouts basics & notes | [docs/06-argo-rollouts-basics-and-notes.md](docs/06-argo-rollouts-basics-and-notes.md) |
+| 7 | Helm basics (manifest → chart) | [docs/07-helm-basics-manifest-to-chart.md](docs/07-helm-basics-manifest-to-chart.md) |
+| 8 | RBAC (optional) | [RBAC/rbac.md](RBAC/rbac.md) |
 | — | Cleanup | [docs/cleanup-resource.md](docs/cleanup-resource.md) |
 
 ### Advanced (optional)
 
 | Topic | Guide |
 |-------|-------|
-| Canary deployment | [docs/canary-deployment.md](docs/canary-deployment.md) |
-| Blue-green deployment | [docs/blue-green-deployment.md](docs/blue-green-deployment.md) |
-| Helm deployment | [docs/helm-deployment-argocd.md](docs/helm-deployment-argocd.md) |
+| Canary deployment (with Ingress) | [docs/canary-deployment.md](docs/canary-deployment.md) |
+| Blue-green deployment (with Ingress) | [docs/blue-green-deployment.md](docs/blue-green-deployment.md) |
+| Helm deployment via ArgoCD | [docs/helm-deployment-argocd.md](docs/helm-deployment-argocd.md) (requires Step 7) |
 
 ## Repository Layout
 
