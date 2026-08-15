@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: guestbook-ui
-          image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
+          image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v6
           env:
             - name: GET_HOSTS_FROM
               value: dns
